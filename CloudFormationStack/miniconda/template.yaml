@@ -154,8 +154,6 @@ Resources:
                   - /home/ec2-user/install.sh ${aws_api_key} ${aws_secret}
                   - aws_api_key: !Ref AwsAccessKeyId
                     aws_secret: !Ref AwsSecretKey
-      'AWS::CloudFormation::Designer':
-        id: f32b512c-38bd-4ebb-a960-068d974343fa
     CreationPolicy:
       ResourceSignal:
         Timeout: PT10M
